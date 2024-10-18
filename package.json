@@ -2,7 +2,7 @@
   "name": "algo-viz",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/YeYintAungNaing/AlgoViz-front-end-only",
+  "homepage": "https://yeyintaungnaing.github.io/AlgoViz-front-end-only/",
   "type": "module",
   "scripts": {
     "dev": "vite",
