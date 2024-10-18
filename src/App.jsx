@@ -14,7 +14,7 @@ import ComparePerformance from './pages/ComparePerformance/ComparePerformance';
 import Discussion from './components/Discussion/Discussion';
 import RotateScreen from './components/RotateScreen/RotateScreen'
 
-const basename = window.location.hostname === 'YeYintAungNaing.github.io' ? '/AlgoViz-front-end-only' : '/';
+
 
 
 function App() {
@@ -84,9 +84,7 @@ function App() {
     
     return (
       <div className='app'>
-          <RouterProvider router={router} 
-          basename={basename} 
-          /> 
+          <RouterProvider router={router}  /> 
                
       </div>
     )
