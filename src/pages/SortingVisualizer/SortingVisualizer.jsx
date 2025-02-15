@@ -275,7 +275,6 @@ function SortingVisualizer() {
     }
   }
 
-
   function restoreArray(e) {
     e.preventDefault()
     setArray(previousArray)

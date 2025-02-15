@@ -19,8 +19,6 @@ const basename = window.location.hostname === 'YeYintAungNaing.github.io' ? '/Al
 
 function App() {
 
-  
-
     function Layout() {
       return (
         <>
