@@ -10,14 +10,14 @@ export default function Login() {
         <h1>Login</h1>
         <input placeholder="Name"></input> 
         <input placeholder="Password"></input>
-        <Link className="link" to='/AlgoViz-front-end-only'><button className="submit-button">Login</button></Link>
-        <Link className="link" to='/AlgoViz-front-end-only'><button className="gmail-button">Sign in with gmail account</button></Link>
+        <Link className="link" to='/'><button className="submit-button">Login</button></Link>
+        <Link className="link" to='/'><button className="gmail-button">Sign in with gmail account</button></Link>
       </div>
       <div className="login-info">
         <h2>Welcome To AlgoViz</h2>
         <span>Do not have an account?</span>
         <span>Click the button below to register instead</span>
-        <Link className="link" to='/AlgoViz-front-end-only/register'><button className="submit-button">Register</button></Link>
+        <Link className="link" to='/register'><button className="submit-button">Register</button></Link>
       </div>         
     </div>
   </div>

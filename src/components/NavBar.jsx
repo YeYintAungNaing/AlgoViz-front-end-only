@@ -4,14 +4,14 @@ import { Link } from "react-router-dom"
 function NavBar() {
   return (
     <div className="navBar">
-        <Link className='link' to="/AlgoViz-front-end-only">
+        <Link className='link' to="/">
           <h1>AlgoViz</h1>
         </Link>
       <div className="navLinks">
-        <Link className='link' to='/AlgoViz-front-end-only'>Home</Link>
-        <Link className='link' to='/AlgoViz-front-end-only/compare'>Compare</Link>
-        <Link className='link' to='/AlgoViz-front-end-only/discussion'>Discussion</Link>
-        <Link className="link" to='/AlgoViz-front-end-only/register'>
+        <Link className='link' to='/'>Home</Link>
+        <Link className='link' to='/compare'>Compare</Link>
+        <Link className='link' to='/discussion'>Discussion</Link>
+        <Link className="link" to='/register'>
           <button className="submit-button">Login</button>
         </Link>
       </div>

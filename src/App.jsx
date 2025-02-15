@@ -31,47 +31,47 @@ function App() {
   
     const router = createBrowserRouter([
       {
-        path : '/AlgoViz-front-end-only',
+        path : '/',
         element : <Layout/>,            // whenever a user navigates to any URL starting with /AlgoViz, the Layout component will be rendered.
         children : [
           {
-            path : '/AlgoViz-front-end-only',
+            path : '/',
             element : <Home/> 
           },
           {
-            path : '/AlgoViz-front-end-only/register',
+            path : '/register',
             element : <Register></Register>
           },
           {
-            path : '/AlgoViz-front-end-only/login',
+            path : '/login',
             element : <Login></Login>
           },
           {
-            path : '/AlgoViz-front-end-only/sortingVisualizer',
+            path : '/sortingVisualizer',
             element : <RotateScreen><SortingVisualizer/></RotateScreen>
           },
           {
-            path : '/AlgoViz-front-end-only/dataStructureVisualizer',
+            path : '/dataStructureVisualizer',
             element : <RotateScreen><DataStructureVisualizer/></RotateScreen>
           },
           {
-            path : '/AlgoViz-front-end-only/pathFindingVisualizer',
+            path : '/pathFindingVisualizer',
             element : <RotateScreen><PathFindingVisualizer/></RotateScreen>
           },
           {
-            path : '/AlgoViz-front-end-only/myAlgorithm',
+            path : '/myAlgorithm',
             element : <RotateScreen><MyAlgorithm/></RotateScreen>
           },
           {
-            path : '/AlgoViz-front-end-only/discussion',
+            path : '/discussion',
             element : <Discussion></Discussion>
           },
           {
-            path : '/AlgoViz-front-end-only/contact',
+            path : '/contact',
             element : <ContactUs></ContactUs>
           },
           {
-            path : '/AlgoViz-front-end-only/compare',
+            path : '/compare',
             element : <ComparePerformance></ComparePerformance>
           },
         ]

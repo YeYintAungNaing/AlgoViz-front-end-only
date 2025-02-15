@@ -9,42 +9,42 @@ function Home() {
     <div className="home">
      <div className="home-cards">
       <div className="home-card">
-        <Link className="link" to="/AlgoViz-front-end-only/sortingVisualizer">
+        <Link className="link" to="/sortingVisualizer">
           <img src={sortingImg} alt="Sorting Visualizer" />
         </Link>
         <h3>Sorting Visualizer</h3>
         <p>Learn how sorting algorithms work with interactive visualizations.</p>
-        <Link className="link" to="/AlgoViz-front-end-only/sortingVisualizer">
+        <Link className="link" to="/sortingVisualizer">
           <button className="submit-button">Get Started</button>
         </Link>
       </div>
       <div className="home-card">
-        <Link className="link" to="/AlgoViz-front-end-only/dataStructureVisualizer">
+        <Link className="link" to="/dataStructureVisualizer">
           <img src={dsImg} alt="dataStructureVisualizer" />
         </Link>
         <h3>Data Structure Visualizer</h3>
         <p>Explore various data structures through easy-to-understand visuals.</p>
-        <Link className="link" to="/AlgoViz-front-end-only/dataStructureVisualizer">
+        <Link className="link" to="/dataStructureVisualizer">
           <button className="submit-button">Get Started</button>
         </Link>
       </div>
       <div className="home-card">
-        <Link className="link" to="/AlgoViz-front-end-only/pathFindingVisualizer">
+        <Link className="link" to="/pathFindingVisualizer">
           <img src={pathFinderImg} alt="pathFindingVisualizerr" />
         </Link>
         <h3>PathFinding Visualizer</h3>
         <p>Understand pathfinding algorithms with real-time visualizations.</p>
-        <Link className="link" to="/AlgoViz-front-end-only/pathFindingVisualizer">
+        <Link className="link" to="/pathFindingVisualizer">
           <button className="submit-button">Get Started</button>
         </Link>  
       </div>
       <div className="home-card">
-        <Link className="link" to="/AlgoViz-front-end-only/myAlgorithm">
+        <Link className="link" to="/myAlgorithm">
           <img src={myAlgo} alt="myAlgorithm" />
         </Link>
         <h3>My Algorithm</h3>
         <p>Customize and visualize your own algorithms on this page.</p>
-        <Link className="link" to="/AlgoViz-front-end-only/myAlgorithm">
+        <Link className="link" to="/myAlgorithm">
           <button className="submit-button">Get Started</button>
         </Link>
       </div>   
